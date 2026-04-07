@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class MVCView : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI hpText;
+    [SerializeField] private Text hpText;
     [SerializeField] private Slider hpSlider;
 
     //뷰는 모델의 상태를 받아서 화면을 업데이트만 함

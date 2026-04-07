@@ -5,7 +5,7 @@ using TMPro;
 
 public class MVVMView : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI displayText;
+    [SerializeField] private Text displayText;
     [SerializeField] private Button incrementButton;
     [SerializeField] private Button decrementButton;
     [SerializeField] private InputField inputField;

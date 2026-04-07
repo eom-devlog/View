@@ -5,7 +5,7 @@ using TMPro;
 
 public class MVPView : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI counterText;
+    [SerializeField] private Text counterText;
     [SerializeField] private Button incrementButton;
     [SerializeField] private Button decrementButton;
 
